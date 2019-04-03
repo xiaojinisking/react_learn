@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>join react in simple html</h1>
+    <div id="like_button_container"></div>
+
+</body>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Load our React component. -->
+<script src="like_button.js"></script>
+<script>
+	const domContainer = document.querySelector('#like_button_container');
+	ReactDOM.render(e(LikeButton), domContainer);
+
+</script>
+</html>

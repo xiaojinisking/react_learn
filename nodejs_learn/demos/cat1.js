@@ -1,0 +1,1 @@
+var cat1 = require('./cat1');
